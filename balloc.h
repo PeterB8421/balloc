@@ -6,5 +6,5 @@
  * Allocates one byte and returns pointer to char
  **/
 char * balloc(){
-    return (char*) malloc(1);
+    return (char*) malloc(sizeof(char)*1);
 }
